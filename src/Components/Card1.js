@@ -4,9 +4,9 @@ import './Card1.css';
 const Card1 = ({ title, amount, icon }) => {
     return (
         <div className="finance-card">
-            <img src={icon} alt={title} />
+            {icon}
             <div>
-                <p>{amount}</p>
+                
                 <p>{title}</p>
             </div>
         </div>

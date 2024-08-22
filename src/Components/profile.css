@@ -1,0 +1,79 @@
+.profile-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    background: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container .profile-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-container .profile-header h1 {
+    font-size: 2.8em;
+    color: #333;
+}
+
+.profile-container .profile-description {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 10px;
+}
+
+.profile-container .profile-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.profile-container .profile-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container .profile-card h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.profile-container .profile-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.profile-container .profile-table th,
+.profile-container .profile-table td {
+    padding: 12px;
+    text-align: left;
+}
+
+.profile-container .profile-table th {
+    width: 40%;
+    font-weight: 600;
+    color: #555;
+}
+
+.profile-container .profile-container .profile-table td {
+    width: 60%;
+    color: #333;
+}
+
+.profile-container .profile-table a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.profile-container .profile-table a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}

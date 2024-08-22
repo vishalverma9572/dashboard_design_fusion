@@ -16,8 +16,8 @@ function App() {
         <div style={{ flex: 1, padding: '20px' }}>
           <Routes>
             <Route path="/" element={<MainContent />} />
-            {/* <Route path="/profiles" element={<Profile />} /> */}
-            {/* Add more routes as needed */}
+            <Route path="/profile" element={<MainContent />} />
+            <Route path="/skills" element={<MainContent />} />
           </Routes>
         </div>
       </div>
