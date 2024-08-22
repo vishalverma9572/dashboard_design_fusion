@@ -13,3 +13,7 @@
 .notice-card p {
     margin-bottom: 10px;
 }
+.notice-card a {
+    text-decoration: none;
+    color: #0d4977;
+}
