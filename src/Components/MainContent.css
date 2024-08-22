@@ -1,0 +1,70 @@
+/* scroll off on body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f8fc;
+   
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main-content {
+    padding: 20px;
+    background-color: #f7f8fc;
+    width:98%
+    /* margin-left: 300px; */
+}
+/* scroll only when scrolled on this elemt not on sidebar */
+.main-div {
+    overflow-y: auto;
+    height: 95vh;
+    scrollbar-width: none;
+}
+
+.main-content .welcome-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2d3b45;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+  }
+  
+  .main-content .welcome-text {
+    max-width: 60%; /* Ensures text doesn’t stretch too wide */
+    margin-left: 30px;
+  }
+  
+  .main-content .welcome-text h1 {
+    font-size: 2em;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .main-content .welcome-text p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  .welcome-banner img {
+    border-radius: 10px;
+    width: 35%; /* Adjust as needed */
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    overflow: hidden;
+  }
+
+  .main-content .finance-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.course-section, .notice-section {
+    margin-top: 20px;
+}

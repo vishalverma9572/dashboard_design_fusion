@@ -1,0 +1,9 @@
+.app {
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+.main-section {
+  width: 100%;
+  background-color: #f7f8fc;
+}
